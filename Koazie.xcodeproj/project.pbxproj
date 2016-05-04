@@ -101,14 +101,9 @@
 		99779A441CD9BED0007F3485 /* Koazie */ = {
 			isa = PBXGroup;
 			children = (
-				99779A481CD9BED0007F3485 /* AppDelegate.h */,
-				99779A491CD9BED0007F3485 /* AppDelegate.m */,
-				99779A4B1CD9BED0007F3485 /* ViewController.h */,
-				99779A4C1CD9BED0007F3485 /* ViewController.m */,
-				99779A4E1CD9BED0007F3485 /* Main.storyboard */,
-				99779A511CD9BED0007F3485 /* Assets.xcassets */,
-				99779A531CD9BED0007F3485 /* LaunchScreen.storyboard */,
-				99779A561CD9BED0007F3485 /* Info.plist */,
+				99779A7A1CD9BF4A007F3485 /* Model */,
+				99779A781CD9BF31007F3485 /* Views */,
+				99779A791CD9BF45007F3485 /* Controller */,
 				99779A451CD9BED0007F3485 /* Supporting Files */,
 			);
 			path = Koazie;
@@ -117,6 +112,10 @@
 		99779A451CD9BED0007F3485 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				99779A481CD9BED0007F3485 /* AppDelegate.h */,
+				99779A491CD9BED0007F3485 /* AppDelegate.m */,
+				99779A531CD9BED0007F3485 /* LaunchScreen.storyboard */,
+				99779A561CD9BED0007F3485 /* Info.plist */,
 				99779A461CD9BED0007F3485 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +137,31 @@
 				99779A6C1CD9BED0007F3485 /* Info.plist */,
 			);
 			path = KoazieUITests;
+			sourceTree = "<group>";
+		};
+		99779A781CD9BF31007F3485 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99779A4E1CD9BED0007F3485 /* Main.storyboard */,
+				99779A511CD9BED0007F3485 /* Assets.xcassets */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		99779A791CD9BF45007F3485 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99779A4B1CD9BED0007F3485 /* ViewController.h */,
+				99779A4C1CD9BED0007F3485 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		99779A7A1CD9BF4A007F3485 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
