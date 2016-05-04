@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99779A471CD9BED0007F3485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A461CD9BED0007F3485 /* main.m */; };
+		99779A4A1CD9BED0007F3485 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A491CD9BED0007F3485 /* AppDelegate.m */; };
+		99779A4D1CD9BED0007F3485 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A4C1CD9BED0007F3485 /* ViewController.m */; };
+		99779A501CD9BED0007F3485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99779A4E1CD9BED0007F3485 /* Main.storyboard */; };
+		99779A521CD9BED0007F3485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99779A511CD9BED0007F3485 /* Assets.xcassets */; };
+		99779A551CD9BED0007F3485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99779A531CD9BED0007F3485 /* LaunchScreen.storyboard */; };
+		99779A601CD9BED0007F3485 /* KoazieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A5F1CD9BED0007F3485 /* KoazieTests.m */; };
+		99779A6B1CD9BED0007F3485 /* KoazieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A6A1CD9BED0007F3485 /* KoazieUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99779A5C1CD9BED0007F3485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99779A3A1CD9BED0007F3485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99779A411CD9BED0007F3485;
+			remoteInfo = Koazie;
+		};
+		99779A671CD9BED0007F3485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99779A3A1CD9BED0007F3485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99779A411CD9BED0007F3485;
+			remoteInfo = Koazie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99779A421CD9BED0007F3485 /* Koazie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koazie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99779A461CD9BED0007F3485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99779A481CD9BED0007F3485 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99779A491CD9BED0007F3485 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99779A4B1CD9BED0007F3485 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99779A4C1CD9BED0007F3485 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99779A4F1CD9BED0007F3485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99779A511CD9BED0007F3485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99779A541CD9BED0007F3485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99779A561CD9BED0007F3485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99779A5B1CD9BED0007F3485 /* KoazieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoazieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99779A5F1CD9BED0007F3485 /* KoazieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KoazieTests.m; sourceTree = "<group>"; };
+		99779A611CD9BED0007F3485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99779A661CD9BED0007F3485 /* KoazieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoazieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99779A6A1CD9BED0007F3485 /* KoazieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KoazieUITests.m; sourceTree = "<group>"; };
+		99779A6C1CD9BED0007F3485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99779A3F1CD9BED0007F3485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99779A581CD9BED0007F3485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99779A631CD9BED0007F3485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99779A391CD9BED0007F3485 = {
+			isa = PBXGroup;
+			children = (
+				99779A441CD9BED0007F3485 /* Koazie */,
+				99779A5E1CD9BED0007F3485 /* KoazieTests */,
+				99779A691CD9BED0007F3485 /* KoazieUITests */,
+				99779A431CD9BED0007F3485 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99779A431CD9BED0007F3485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99779A421CD9BED0007F3485 /* Koazie.app */,
+				99779A5B1CD9BED0007F3485 /* KoazieTests.xctest */,
+				99779A661CD9BED0007F3485 /* KoazieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99779A441CD9BED0007F3485 /* Koazie */ = {
+			isa = PBXGroup;
+			children = (
+				99779A481CD9BED0007F3485 /* AppDelegate.h */,
+				99779A491CD9BED0007F3485 /* AppDelegate.m */,
+				99779A4B1CD9BED0007F3485 /* ViewController.h */,
+				99779A4C1CD9BED0007F3485 /* ViewController.m */,
+				99779A4E1CD9BED0007F3485 /* Main.storyboard */,
+				99779A511CD9BED0007F3485 /* Assets.xcassets */,
+				99779A531CD9BED0007F3485 /* LaunchScreen.storyboard */,
+				99779A561CD9BED0007F3485 /* Info.plist */,
+				99779A451CD9BED0007F3485 /* Supporting Files */,
+			);
+			path = Koazie;
+			sourceTree = "<group>";
+		};
+		99779A451CD9BED0007F3485 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99779A461CD9BED0007F3485 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99779A5E1CD9BED0007F3485 /* KoazieTests */ = {
+			isa = PBXGroup;
+			children = (
+				99779A5F1CD9BED0007F3485 /* KoazieTests.m */,
+				99779A611CD9BED0007F3485 /* Info.plist */,
+			);
+			path = KoazieTests;
+			sourceTree = "<group>";
+		};
+		99779A691CD9BED0007F3485 /* KoazieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99779A6A1CD9BED0007F3485 /* KoazieUITests.m */,
+				99779A6C1CD9BED0007F3485 /* Info.plist */,
+			);
+			path = KoazieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99779A411CD9BED0007F3485 /* Koazie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99779A6F1CD9BED0007F3485 /* Build configuration list for PBXNativeTarget "Koazie" */;
+			buildPhases = (
+				99779A3E1CD9BED0007F3485 /* Sources */,
+				99779A3F1CD9BED0007F3485 /* Frameworks */,
+				99779A401CD9BED0007F3485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Koazie;
+			productName = Koazie;
+			productReference = 99779A421CD9BED0007F3485 /* Koazie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99779A5A1CD9BED0007F3485 /* KoazieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99779A721CD9BED0007F3485 /* Build configuration list for PBXNativeTarget "KoazieTests" */;
+			buildPhases = (
+				99779A571CD9BED0007F3485 /* Sources */,
+				99779A581CD9BED0007F3485 /* Frameworks */,
+				99779A591CD9BED0007F3485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99779A5D1CD9BED0007F3485 /* PBXTargetDependency */,
+			);
+			name = KoazieTests;
+			productName = KoazieTests;
+			productReference = 99779A5B1CD9BED0007F3485 /* KoazieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99779A651CD9BED0007F3485 /* KoazieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99779A751CD9BED0007F3485 /* Build configuration list for PBXNativeTarget "KoazieUITests" */;
+			buildPhases = (
+				99779A621CD9BED0007F3485 /* Sources */,
+				99779A631CD9BED0007F3485 /* Frameworks */,
+				99779A641CD9BED0007F3485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99779A681CD9BED0007F3485 /* PBXTargetDependency */,
+			);
+			name = KoazieUITests;
+			productName = KoazieUITests;
+			productReference = 99779A661CD9BED0007F3485 /* KoazieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99779A3A1CD9BED0007F3485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Johnathan Mai";
+				TargetAttributes = {
+					99779A411CD9BED0007F3485 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WQSL97M9VD;
+					};
+					99779A5A1CD9BED0007F3485 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WQSL97M9VD;
+						TestTargetID = 99779A411CD9BED0007F3485;
+					};
+					99779A651CD9BED0007F3485 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WQSL97M9VD;
+						TestTargetID = 99779A411CD9BED0007F3485;
+					};
+				};
+			};
+			buildConfigurationList = 99779A3D1CD9BED0007F3485 /* Build configuration list for PBXProject "Koazie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99779A391CD9BED0007F3485;
+			productRefGroup = 99779A431CD9BED0007F3485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99779A411CD9BED0007F3485 /* Koazie */,
+				99779A5A1CD9BED0007F3485 /* KoazieTests */,
+				99779A651CD9BED0007F3485 /* KoazieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99779A401CD9BED0007F3485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99779A551CD9BED0007F3485 /* LaunchScreen.storyboard in Resources */,
+				99779A521CD9BED0007F3485 /* Assets.xcassets in Resources */,
+				99779A501CD9BED0007F3485 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99779A591CD9BED0007F3485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99779A641CD9BED0007F3485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99779A3E1CD9BED0007F3485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99779A4D1CD9BED0007F3485 /* ViewController.m in Sources */,
+				99779A4A1CD9BED0007F3485 /* AppDelegate.m in Sources */,
+				99779A471CD9BED0007F3485 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99779A571CD9BED0007F3485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99779A601CD9BED0007F3485 /* KoazieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99779A621CD9BED0007F3485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99779A6B1CD9BED0007F3485 /* KoazieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99779A5D1CD9BED0007F3485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99779A411CD9BED0007F3485 /* Koazie */;
+			targetProxy = 99779A5C1CD9BED0007F3485 /* PBXContainerItemProxy */;
+		};
+		99779A681CD9BED0007F3485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99779A411CD9BED0007F3485 /* Koazie */;
+			targetProxy = 99779A671CD9BED0007F3485 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99779A4E1CD9BED0007F3485 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99779A4F1CD9BED0007F3485 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99779A531CD9BED0007F3485 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99779A541CD9BED0007F3485 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99779A6D1CD9BED0007F3485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99779A6E1CD9BED0007F3485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99779A701CD9BED0007F3485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Koazie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mai.johnathan.Koazie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99779A711CD9BED0007F3485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Koazie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mai.johnathan.Koazie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99779A731CD9BED0007F3485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KoazieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mai.johnathan.KoazieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koazie.app/Koazie";
+			};
+			name = Debug;
+		};
+		99779A741CD9BED0007F3485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KoazieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mai.johnathan.KoazieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koazie.app/Koazie";
+			};
+			name = Release;
+		};
+		99779A761CD9BED0007F3485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KoazieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mai.johnathan.KoazieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Koazie;
+			};
+			name = Debug;
+		};
+		99779A771CD9BED0007F3485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KoazieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mai.johnathan.KoazieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Koazie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99779A3D1CD9BED0007F3485 /* Build configuration list for PBXProject "Koazie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99779A6D1CD9BED0007F3485 /* Debug */,
+				99779A6E1CD9BED0007F3485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99779A6F1CD9BED0007F3485 /* Build configuration list for PBXNativeTarget "Koazie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99779A701CD9BED0007F3485 /* Debug */,
+				99779A711CD9BED0007F3485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99779A721CD9BED0007F3485 /* Build configuration list for PBXNativeTarget "KoazieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99779A731CD9BED0007F3485 /* Debug */,
+				99779A741CD9BED0007F3485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99779A751CD9BED0007F3485 /* Build configuration list for PBXNativeTarget "KoazieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99779A761CD9BED0007F3485 /* Debug */,
+				99779A771CD9BED0007F3485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99779A3A1CD9BED0007F3485 /* Project object */;
+}
