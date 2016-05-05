@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		99779A471CD9BED0007F3485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A461CD9BED0007F3485 /* main.m */; };
 		99779A4A1CD9BED0007F3485 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A491CD9BED0007F3485 /* AppDelegate.m */; };
-		99779A4D1CD9BED0007F3485 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A4C1CD9BED0007F3485 /* ViewController.m */; };
 		99779A501CD9BED0007F3485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99779A4E1CD9BED0007F3485 /* Main.storyboard */; };
 		99779A521CD9BED0007F3485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99779A511CD9BED0007F3485 /* Assets.xcassets */; };
 		99779A551CD9BED0007F3485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99779A531CD9BED0007F3485 /* LaunchScreen.storyboard */; };
 		99779A601CD9BED0007F3485 /* KoazieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A5F1CD9BED0007F3485 /* KoazieTests.m */; };
 		99779A6B1CD9BED0007F3485 /* KoazieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A6A1CD9BED0007F3485 /* KoazieUITests.m */; };
+		99779A7D1CDAB911007F3485 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A7C1CDAB911007F3485 /* HomeViewController.m */; };
+		99779A801CDAB97D007F3485 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A7F1CDAB97D007F3485 /* SearchViewController.m */; };
+		99779A861CDAC2BA007F3485 /* FavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A851CDAC2BA007F3485 /* FavoritesTableViewController.m */; };
+		99779A8C1CDAC38F007F3485 /* FacilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A8B1CDAC38F007F3485 /* FacilityViewController.m */; };
+		99779A8E1CDAC3C7007F3485 /* FavoritesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A8D1CDAC3C7007F3485 /* FavoritesModel.m */; };
+		99779A921CDACB81007F3485 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A911CDACB81007F3485 /* ResultsViewController.m */; };
+		99779A951CDACCA5007F3485 /* ResultCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99779A941CDACCA5007F3485 /* ResultCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		99779A461CD9BED0007F3485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		99779A481CD9BED0007F3485 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99779A491CD9BED0007F3485 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		99779A4B1CD9BED0007F3485 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		99779A4C1CD9BED0007F3485 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		99779A4F1CD9BED0007F3485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99779A511CD9BED0007F3485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99779A541CD9BED0007F3485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,19 @@
 		99779A661CD9BED0007F3485 /* KoazieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoazieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99779A6A1CD9BED0007F3485 /* KoazieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KoazieUITests.m; sourceTree = "<group>"; };
 		99779A6C1CD9BED0007F3485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99779A7B1CDAB911007F3485 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		99779A7C1CDAB911007F3485 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		99779A7E1CDAB97D007F3485 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		99779A7F1CDAB97D007F3485 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		99779A841CDAC2BA007F3485 /* FavoritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesTableViewController.h; sourceTree = "<group>"; };
+		99779A851CDAC2BA007F3485 /* FavoritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesTableViewController.m; sourceTree = "<group>"; };
+		99779A8A1CDAC38F007F3485 /* FacilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacilityViewController.h; sourceTree = "<group>"; };
+		99779A8B1CDAC38F007F3485 /* FacilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacilityViewController.m; sourceTree = "<group>"; };
+		99779A8D1CDAC3C7007F3485 /* FavoritesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesModel.m; sourceTree = "<group>"; };
+		99779A901CDACB81007F3485 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		99779A911CDACB81007F3485 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		99779A931CDACCA5007F3485 /* ResultCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultCollectionViewCell.h; sourceTree = "<group>"; };
+		99779A941CDACCA5007F3485 /* ResultCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +161,8 @@
 			children = (
 				99779A4E1CD9BED0007F3485 /* Main.storyboard */,
 				99779A511CD9BED0007F3485 /* Assets.xcassets */,
+				99779A931CDACCA5007F3485 /* ResultCollectionViewCell.h */,
+				99779A941CDACCA5007F3485 /* ResultCollectionViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -151,8 +170,16 @@
 		99779A791CD9BF45007F3485 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				99779A4B1CD9BED0007F3485 /* ViewController.h */,
-				99779A4C1CD9BED0007F3485 /* ViewController.m */,
+				99779A7B1CDAB911007F3485 /* HomeViewController.h */,
+				99779A7C1CDAB911007F3485 /* HomeViewController.m */,
+				99779A7E1CDAB97D007F3485 /* SearchViewController.h */,
+				99779A7F1CDAB97D007F3485 /* SearchViewController.m */,
+				99779A901CDACB81007F3485 /* ResultsViewController.h */,
+				99779A911CDACB81007F3485 /* ResultsViewController.m */,
+				99779A8A1CDAC38F007F3485 /* FacilityViewController.h */,
+				99779A8B1CDAC38F007F3485 /* FacilityViewController.m */,
+				99779A841CDAC2BA007F3485 /* FavoritesTableViewController.h */,
+				99779A851CDAC2BA007F3485 /* FavoritesTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -160,6 +187,7 @@
 		99779A7A1CD9BF4A007F3485 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				99779A8D1CDAC3C7007F3485 /* FavoritesModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -297,9 +325,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99779A4D1CD9BED0007F3485 /* ViewController.m in Sources */,
 				99779A4A1CD9BED0007F3485 /* AppDelegate.m in Sources */,
 				99779A471CD9BED0007F3485 /* main.m in Sources */,
+				99779A801CDAB97D007F3485 /* SearchViewController.m in Sources */,
+				99779A921CDACB81007F3485 /* ResultsViewController.m in Sources */,
+				99779A8C1CDAC38F007F3485 /* FacilityViewController.m in Sources */,
+				99779A951CDACCA5007F3485 /* ResultCollectionViewCell.m in Sources */,
+				99779A861CDAC2BA007F3485 /* FavoritesTableViewController.m in Sources */,
+				99779A7D1CDAB911007F3485 /* HomeViewController.m in Sources */,
+				99779A8E1CDAC3C7007F3485 /* FavoritesModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +557,7 @@
 				99779A711CD9BED0007F3485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99779A721CD9BED0007F3485 /* Build configuration list for PBXNativeTarget "KoazieTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +566,7 @@
 				99779A741CD9BED0007F3485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99779A751CD9BED0007F3485 /* Build configuration list for PBXNativeTarget "KoazieUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +575,7 @@
 				99779A771CD9BED0007F3485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

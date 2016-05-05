@@ -1,22 +1,22 @@
 //
-//  ViewController.m
+//  FacilityViewController.m
 //  Koazie
 //
-//  Created by Johnathan Mai on 5/3/16.
+//  Created by Johnathan Mai on 5/4/16.
 //  Copyright © 2016 Johnathan Mai. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FacilityViewController.h"
 
-@interface ViewController ()
+@interface FacilityViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FacilityViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
